@@ -1,0 +1,60 @@
+/* 
+    Document   : default2
+    Created on : 18-Jul-2013, 21:40:42
+    Author     : Robert Forde
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#Size14 {
+    font: 14px calibri;
+}
+
+#Size14 input[type="text"] {
+    font: 14px calibri;
+}
+
+#Size14 a {
+    font: 14px calibri;
+}
+
+#Size10 {
+    font: 14px calibri;
+}
+
+#Size10 a {
+    font: 14px calibri;
+}
+
+#ProfileScroll {
+    overflow-y: scroll;
+    height:280px;
+    text-align: left;
+    border-top: 2px solid #B21000;
+    border-bottom: 2px solid #B21000;
+}
+
+#Search{
+    margin: 60px 100px 0 100px;
+    height: 180px;
+    font: 14px calibri;
+    border: 5px double #B21000;
+}
+
+#Search input[type="text"] {
+    font: 14px calibri;
+}
+
+#SearchTable {
+    font: 12px calibri;
+    overflow-y: scroll;
+    height:280px;
+    width:100%;
+    border: 1px solid black;
+    text-align: left;
+}
+

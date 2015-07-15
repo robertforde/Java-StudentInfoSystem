@@ -1,0 +1,218 @@
+/* 
+    Document   : default
+    Created on : 24-Jun-2013, 21:26:29
+    Author     : Robert Forde
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background-image: url(../images/image02.jpg);
+    background-repeat: no-repeat;
+    font: 12px calibri;
+}
+
+#LoginHead {
+    margin: 30px 200px 0px 200px;
+    text-align: center;
+    font: bold 36px calibri;
+    color: white;
+    background-color: #B21000;
+}
+
+#LoginBox {
+    margin: 90px 300px 0 300px;
+    height: 150px;
+    border: 2px solid #B21000;
+}
+
+#LoginBoxHead {
+    background-color: #B21000;
+    color: white;
+    text-align: center;
+    font:bold 16px calibri;
+}
+
+#MainHead {
+    margin: 20px 200px 0 200px;
+    height: 60px;
+    text-align: center;
+    font: bold 26px calibri;
+    background-color: #B21000;
+    color:white;
+}
+
+#MenuHeadRow {
+    margin: 0 30px 0 30px;
+    height: 24px;
+    background-color: white;
+}
+
+#MenuHead {
+    top: 5px;
+    height: 19px;
+    position: relative;
+    font: bold 90% 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+}
+
+#MenuHead a {
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:selected {
+    color: black;
+}
+
+#MenuWelcome {
+    margin: 0px 30px 0 30px;
+    height:20px;
+    background-color: #B21000;
+    color: white;
+    font: bold 16px calibri;
+    text-align: center;
+}
+
+#MainPanel {
+    margin: 0 30px 0 30px;
+    height: 360px;
+    width:944px;
+    font: bold 10px calibri;
+}
+
+#LeftPanel {
+    float:left;
+    width:218px;
+    height:100%;
+    border-left: 2px solid #B21000;
+    border-bottom: 2px solid #B21000;
+    border-right: 2px dotted #B21000;
+    font: 12px calibri;
+}
+
+
+#LeftPanel a {
+    font: bold 16px 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+}
+
+#CenterPanel {
+    float:left;
+    width:500px;
+    height:100%;
+    border-bottom: 2px solid #B21000;
+    font: bold 14px calibri;
+}
+
+#CenterPanel input[type="text"] {
+    font: 10px calibri;
+}
+
+#Size14Bold {
+    width:500px;
+    height:16px;
+    background-color: #B21000;
+    color: white;
+    text-align: center;
+    font: bold 14px calibri;
+}
+
+#TimeTableTableHead {
+    width:500px;
+    height:14px;
+    background-color: #B21000;
+    color: white;
+    font: bold 14px calibri;
+    text-align: center;
+}
+
+#TimeTableTable {
+    font: 10px calibri;
+    overflow-y: scroll;
+    height:280px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+#TimeTableTable th{
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: arial;
+    
+}
+
+#TimeTableImage {    
+    text-align: center;
+}
+
+#whiteLine {
+    background-color: white;
+}
+
+#clearLine {
+    background-color: transparent;
+}
+
+#RightPanel {
+    float:left;
+    width:218px;
+    height:100%;
+    border-right: 2px solid #B21000;
+    border-bottom: 2px solid #B21000;
+    border-left: 2px dotted #B21000;
+    font: 12px calibri;
+}
+
+#HomeCenter {
+    font: 12px calibri;
+    text-align: center;
+}
+
+#MessageTitle {
+    font: bold 14px arial;
+    
+}
+
+#Messages {
+    height:300px;
+    font: 12px calibri;
+    overflow-y: scroll;
+}
+
+#StudentID{
+    margin: 60px 100px 0 100px;
+    height: 100px;
+    font: 14px calibri;
+    border: 5px double #B21000;
+}
+
+#StudentID input[type="text"] {
+    font: 14px calibri;
+}
+
+#AdminAttSubBox {
+    left: 50px;
+    overflow-y: scroll;
+    height:280px;
+}
+
+#footer {
+    margin:0 30px 0 30px;
+    height: 20px;
+    color:white;
+    text-align: center;
+    font: 12px calibri;
+    background-color: #B21000;
+}
